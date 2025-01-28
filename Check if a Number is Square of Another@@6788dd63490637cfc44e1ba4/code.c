@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    int a,b,c;
+    c=pow(a,2);
     scanf("%d%d",&a,&b);
-    if(a==pow(b,2)){
+    if(a==c){
         printf("Yes");
     }
     else{
