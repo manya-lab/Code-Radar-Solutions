@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&x);
     scanf("%d",&n);
     int mask=~(1<<n);
-    x=x&mark;
+    x=x&mask;
     printf("%d",x);
     return 0;
 }
