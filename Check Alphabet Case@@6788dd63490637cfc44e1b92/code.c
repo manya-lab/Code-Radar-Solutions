@@ -1,12 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    char al;
-    scanf("%c",&al);
-    if(al>='a' && al<='z'){
-        printf("Lowercase")
+    char ch;
+    scanf("%c",&ch);
+    if(ch>=A && ch<=Z){
+        printf("Uppercase");
     }
-    else if(al>='A' && al<='Z'){
-        printf("Uppercase")
+    else if(ch>=a && ch<=z){
+        printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
     return 0;
 }
