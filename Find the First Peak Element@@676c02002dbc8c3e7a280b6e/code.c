@@ -6,7 +6,7 @@ int main(){
         scanf("%d",&i);
         for(int i=1;i<=n;i++){
             if(i+1>i && i+2<i+1){
-                printf("%d",i+1);
+                printf("%d",i);
                 break;
             }
         }
