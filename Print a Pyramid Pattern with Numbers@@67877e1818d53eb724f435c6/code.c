@@ -1,4 +1,4 @@
-#ilude<stdio.h>
+#include<stdio.h>
 int main(){
     int spaces,rows,i,j;
     scanf("%d",&rows);
