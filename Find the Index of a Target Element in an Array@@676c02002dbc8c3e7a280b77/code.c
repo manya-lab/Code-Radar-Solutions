@@ -12,7 +12,7 @@ int main() {
     int found = 0; // Variable to track if x is found
     for (int i = 0; i < n; i++) {
         if (arr[i] == x) {
-            printf("%d\n", arr[i]);
+            printf("%d\n", i);
             found = 1; // Mark as found
             break; // Exit the loop once x is found
         }
