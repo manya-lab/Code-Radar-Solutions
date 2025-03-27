@@ -13,12 +13,15 @@ int main(){
         }
         else if(arr[i+1]>arr[i] && arr[i+2]<arr[i]){
             printf("%d",arr[i+1]);
+            break;
         }
         else if(arr[n-1]>arr[n-2]){
             printf("%d",arr[n-1]);
+            break;
         }
         else{
             printf("-1");
+            break;
         }
 
     }
