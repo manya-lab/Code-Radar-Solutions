@@ -15,10 +15,11 @@ int main(){
             }
            
         }
+        
+        }
         for(int i=0;i<n;i++){
             int result = arr[n-1]* arr[n-2];
             printf("%d",result);
-        }
     }
     return 0;
 }
