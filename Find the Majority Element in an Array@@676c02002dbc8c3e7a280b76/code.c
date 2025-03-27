@@ -2,11 +2,8 @@
 
 int main() {
     int n;
-    printf("Enter the size of the array: ");
     scanf("%d", &n);
     int arr[n];
-    
-    printf("Enter the elements of the array:\n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -35,9 +32,9 @@ int main() {
     }
 
     if (count > n / 2) {
-        printf("The majority element is: %d\n", candidate);
+        printf("%d\n", candidate);
     } else {
-        printf("-1 (No majority element found)\n");
+        printf("-1\n");
     }
 
     return 0;
