@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         
-         if(arr[i+1]>arr[i] && arr[i+2]<arr[i]){
+        if(arr[i+1]>arr[i] && arr[i+2]<arr[i]){
             printf("%d",arr[i+1]);
             break;
         }
