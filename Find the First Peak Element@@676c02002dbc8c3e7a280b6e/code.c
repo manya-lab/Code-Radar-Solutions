@@ -7,12 +7,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[i]>arr[i+1]){
-            printf("%d",arr[i]);
+        
+         if(arr[i+1]>arr[i] && arr[i+2]<arr[i]){
+            printf("%d",arr[i+1]);
             break;
         }
-        else if(arr[i+1]>arr[i] && arr[i+2]<arr[i]){
-            printf("%d",arr[i+1]);
+        else if(arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
             break;
         }
         else if(arr[n-1]>arr[n-2]){
