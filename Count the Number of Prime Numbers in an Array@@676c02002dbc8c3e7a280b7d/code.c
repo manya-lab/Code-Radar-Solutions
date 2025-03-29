@@ -1,19 +1,26 @@
 #include<stdio.h>
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n); // Read the size of the array
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+
+    // Input array elements
+    for(int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    int count =0;
-    for(int i=2;i<n;i++){
-        if(arr[i]%i==0){
+
+    int count = 0;
+
+    // Loop to check divisibility by index
+    for(int i = 2; i < n; i++) { // Start from index 2 as per your logic
+        if(arr[i] % i == 0) { // Check if the element is divisible by its index
             count++;
         }
-
     }
-    printf("%d",count);
-    return 0;
+
+    // Print the count of such elements
+    printf("%d\n", count);
     
+    return 0;
 }
