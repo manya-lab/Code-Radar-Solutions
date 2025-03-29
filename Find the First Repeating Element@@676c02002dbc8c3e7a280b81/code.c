@@ -17,6 +17,7 @@ int main(){
         else{
             ("-1");
         }
+        printf("%d",found)
     }
     return 0;
 }
