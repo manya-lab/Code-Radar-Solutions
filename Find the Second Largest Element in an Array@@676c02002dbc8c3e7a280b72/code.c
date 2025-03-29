@@ -17,12 +17,14 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]<max && arr[i]>smax){
             smax=arr[i];
-            break;
         }
-        else{
-            printf("-1\n");
-        }
+        
     }
-    printf("%d ",smax);
+    if(smax == INT_MIN){
+        printf("-1\n"); 
+    } else {
+        printf("%d\n", smax); 
+    }
+
     return 0;
 }
