@@ -8,10 +8,6 @@ int main() {
         scanf("%d", &arr[i]); 
     }
 
-    if (n < 2) {
-        printf("Array must have at least two elements.\n");
-        return 0;
-    }
 
     int min = arr[0];
     int smin = __INT_MAX__;
