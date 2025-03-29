@@ -15,7 +15,7 @@ int main(){
         if(found){
             break;
         }
-        else{
+        if(!found){
             ("-1\n");
         }
         
