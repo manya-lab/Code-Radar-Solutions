@@ -24,5 +24,5 @@ int main() {
     }
     int missing = findSmallestMissingPositive(arr, n);
     printf("%d\n", missing);
-    return 0;
+    return 0;
 }
