@@ -11,7 +11,7 @@ int main(){
         if(arr[i]%i==0){
             count++;
         }
-        printf("%d",count);
+    printf("%d",count);
     }
     return 0;
     
