@@ -7,8 +7,9 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
+                printf("%d",arr[i]);
                 found=1;
-                
+                break;
             }
         }
         if(found){
@@ -17,7 +18,7 @@ int main(){
         else{
             ("-1");
         }
-        printf("%d",found);
+        
     }
     return 0;
 }
