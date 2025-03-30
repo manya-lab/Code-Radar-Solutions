@@ -11,7 +11,7 @@ int main(){
         sum+=arr[i];
     }
     if(n%2!=0){
-        int median=sum/5;
+        int median=sum/n;
         printf("%d",&median);
     }
     return 0;
