@@ -17,6 +17,11 @@ int main() {
         }
     }
     int maxProduct = arr[n - 1] * arr[n - 2];
+    int minProduct = arr[0] * arr[1];                
+    if (minProduct > maxProduct) {
+        maxProduct = minProduct;
+    }
+
     printf("%d\n", maxProduct);
 
     return 0;
