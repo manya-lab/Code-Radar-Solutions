@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<n;i++){
         sum+=arr[i];
     }
-    if(n%2==0){
+    if(n%2!=0){
         int median=sum/5;
         printf("%d",&median);
     }
