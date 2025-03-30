@@ -13,6 +13,7 @@ int main(){
     if(n%2!=0){
         int median=sum/n;
         printf("%d",&median);
+        break;
     }
     return 0;
 }
