@@ -6,10 +6,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int s=0;
+    int s=1;
     for(int i=0;i<n-1;i++){
         if(arr[i]<=arr[i+1]){
             s=1;
+        }
+        else{
+            s=0;
         }
     }
     if(s){
