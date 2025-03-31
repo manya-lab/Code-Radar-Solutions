@@ -12,7 +12,7 @@ int main(){
         continue;
     }
     int count=0;
-    for(j=i+1;j<n;j++){
+    for(int j=i+1;j<n;j++){
         if(arr[i]==ar[j]){
             count++;
             arr[visited]=arr[j];
