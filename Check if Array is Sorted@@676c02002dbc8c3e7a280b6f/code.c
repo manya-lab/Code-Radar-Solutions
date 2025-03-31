@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<Stdio.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -8,7 +8,7 @@ int main(){
     }
     int s=1;
     for(int i=0;i<n-1;i++){
-        if(arr[i]<=arr[i+1]){
+        if(arr[i]<arr[i+1]){
             s=1;
         }
         else{
