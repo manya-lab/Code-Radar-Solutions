@@ -9,7 +9,7 @@ int main() {
     }
     
     int count = 0;
-    for (int i = 2; i < n; i++) { // Starting from index 2
+    for (int i = 2; i*i < n; i++) { // Starting from index 2
         if (arr[i] % i == 0) {
             count++;
         }
