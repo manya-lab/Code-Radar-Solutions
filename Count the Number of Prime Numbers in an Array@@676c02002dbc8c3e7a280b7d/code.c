@@ -20,6 +20,6 @@ int main() {
         }
     }
     
-    printf("Total number of divisors: %d\n", count);
+    printf("%d\n", count);
     return 0;
 }
