@@ -2,22 +2,24 @@
 
 int main() {
     int n;
+    printf("Enter the size of the array: ");
     scanf("%d", &n);
+
     int arr[n];
+    printf("Enter the elements of the array:\n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     
     int count = 0;
-
-    for (int i = 2; i < n; i++) { // Starting from index 2
+    for (int i = 0; i < n; i++) { // Loop over array elements
         for (int j = 1; j <= arr[i]; j++) { // Check divisors of arr[i]
             if (arr[i] % j == 0) {
                 count++;
-
+            }
+        }
     }
- }
-    printf("%d", count);
+    
+    printf("Total number of divisors: %d\n", count);
     return 0;
-}
 }
